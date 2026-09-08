@@ -61,7 +61,7 @@ jobs:
         - name: setup maven
           uses: stCarolas/setup-maven@v5
           with:
-            maven-version: 3.9.9
+            maven-version: 3.9.16
 
         - name: Running Tests
           continue-on-error: true
@@ -72,4 +72,3 @@ jobs:
           with:
             name: Edge_Windows_Report
             path: "test-output/reports/*.html"
-
